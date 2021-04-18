@@ -1,5 +1,14 @@
+<nav>
+	<a href="/">Home</a>
+	<span>That's it. That's the whole nav.</span>
+</nav>
 <main>
-	<h1>Hi, I'm Jayphen</h1>
+	<h1>
+		Hi, I'm <span
+			title="Little-known fact: Jayphen is actually my nickname; my real name is Stephen"
+			>Jayphen</span
+		>
+	</h1>
 	<p>
 		I'm a senior web engineer at <a href="https://n26.com" target="_blank">N26</a>. I was born in
 		Sydney, Australia in the 80's and settled in Vienna, Austria in the 10's
@@ -29,11 +38,24 @@
 </main>
 
 <style>
+	nav,
 	main {
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
 			'Open Sans', 'Helvetica Neue', sans-serif;
 		line-height: 1.5;
 		max-width: 65ch;
+	}
+
+	nav {
+		border-bottom: 1px solid silver;
+		padding: 1em 0;
+	}
+	nav > * {
+		font-size: 0.875rem;
+	}
+
+	h1 span {
+		border-bottom: 1px dotted #c0c0c0;
 	}
 
 	a {
