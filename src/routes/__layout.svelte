@@ -27,6 +27,7 @@
   }
   nav span {
     margin-left: auto;
+    text-align: right;
   }
 
   h1 span {
