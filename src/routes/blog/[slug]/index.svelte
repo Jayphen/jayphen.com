@@ -1,6 +1,6 @@
 <script context="module">
   export async function load({ page, fetch, session, context }) {
-    const url = `/blog.json`;
+    const url = `${page.params.slug}.json`;
     const res = await fetch(url);
 
     if (res.ok) {
@@ -20,9 +20,12 @@
 
 <script>
   export let data;
-  let posts = data.posts;
+
+  const {
+    post: { rendered, attributes }
+  } = data;
 </script>
 
-{#each posts as post}
-  <a href={`blog/${post.slug}`}>{post.title}</a>
-{/each}
+<h1>{attributes.title}</h1>
+
+{@html rendered}
