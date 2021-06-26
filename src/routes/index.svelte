@@ -1,5 +1,6 @@
 <nav>
   <a href="/">Home</a>
+  <a href="/blog">Bloggie</a>
   <span>That's it. That's the whole nav.</span>
 </nav>
 <main>
