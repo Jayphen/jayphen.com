@@ -26,6 +26,34 @@
   } = data;
 </script>
 
-<h1>{attributes.title}</h1>
+<svelte:head>
+  {#if attributes.tags.includes('wip')}
+    <meta name="robots" content="noindex" />
+  {/if}
+</svelte:head>
 
-{@html rendered}
+{#if attributes.tags.includes('wip')}
+  <p class="construction">This post is under construction</p>
+{/if}
+
+<article class:wip={attributes.tags.includes('wip')}>
+  <h1>{attributes.title}</h1>
+
+  {@html rendered}
+</article>
+
+<style>
+  .construction {
+    color: hsl(110, 20%, 40%);
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .wip {
+    padding: 2em;
+    border: 2px solid hsl(110, 20%, 40%);
+    background: hsl(110, 20%, 90%);
+    opacity: 0.5;
+  }
+</style>

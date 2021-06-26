@@ -10,4 +10,6 @@ tags:
   - wip
 ---
 
-This blog is built with SvelteKit, 
+This blog is built with SvelteKit, prerendered using [adapter-static](https://github.com/sveltejs/kit/tree/master/packages/adapter-static) and hosted on Vercel.
+
+The [source is here](https://github.com/Jayphen/jayphen.com), so go ahead and peruse it. I will write more on this soon.
