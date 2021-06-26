@@ -23,6 +23,13 @@
   let posts = data.posts;
 </script>
 
-{#each posts as post}
-  <a href={`blog/${post.slug}`}>{post.title}</a>
-{/each}
+<h1>Some words</h1>
+
+<p>I have said something at least {posts.length} times.</p>
+<p>Here follows a list of those things.</p>
+
+<ol>
+  {#each posts as post}
+    <li><a href={`blog/${post.slug}`}>{post.title}</a></li>
+  {/each}
+</ol>
