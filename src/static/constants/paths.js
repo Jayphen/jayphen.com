@@ -1,3 +1,3 @@
 import { join } from 'path';
 
-export const BLOG_PATH = join(process.cwd(), 'src/static/blog/');
+export const BLOG_PATH = join(process.cwd(), 'static/blog/');
