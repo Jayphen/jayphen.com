@@ -7,7 +7,6 @@ tags:
   - sveltekit
   - web
   - dev
-  - wip
 ---
 
 ### Why Svelte tho?
@@ -29,9 +28,9 @@ So, that’s why I chose Svelte, and will likely choose Svelte for anything I do
 
 This blog is built with SvelteKit and hosted on Vercel.
 
-The [source is here][11], so go ahead and peruse it. I will write more on this soon.
+The [source is here][11], so go ahead and peruse it. I'm basically just grabbing a dir of markdown files, converting them to markdown and then using the `static` SvelteKit adapter to output a static site for hosting on Vercel. The cool thing about Vercel is that it runs the build every time I push to Github, so deploying changes is just a matter of pushing.
 
-I am actually writing this on my phone right now via Working Copy. The blog gets prerendered and deployed on every push, so I can play around with words whenever I have my phone with me.
+That's fine for now, although it would be kinda neat to have a CMS hosted somewhere. Since all of my markdown is in Github, I could edit them there and commit directly from Github's UI, but the flow is a little bit clumsy.
 
 [1]:	https://hyperlab.se/en/
 [2]:	https://www.jetshop.io/jetshop-flight/
