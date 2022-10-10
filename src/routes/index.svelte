@@ -4,16 +4,13 @@
   >
 </h1>
 <p>
-  I'm a senior web engineer at <a href="https://n26.com" target="_blank">N26</a>. I was born in
+  I'm a lead web engineer at <a href="https://n26.com" target="_blank">N26</a>. I was born in
   Sydney, Australia in the 80's and settled in Vienna, Austria in the 10's
   <small>(are we calling it that?).</small>
 </p>
 <p>
-  At N26 I am working on the web engineering team in Vienna. I'm responsible for the web banking
-  application, and at the moment my team is working on the new <a
-    href="https://techcrunch.com/2021/04/15/challenger-bank-n26-to-offer-insurance-products/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAJC9hYTRpYTBkYuX3N_E_85uSQBz10WV7M1rzWclIpCf8w6aEHD8Jjg0tq87uPuWCFhLB6yDP3JlYIjD5Z8hox-M63509APysuGKzYel0CEwjGhZtggAuDSg-m292ORJIILjH8hUhtijfSqcC_y-QkV08qJxnBJiLXPiVZOthgPs"
-    >Insurance offerings</a
-  >.
+  At N26 I am working on the web engineering team in Vienna. I am both a single contributor to the
+  web banking application, and leading a team with a focus on customer communication.
 </p>
 <p>I don't have a lot to say right now, but maybe one day there will be a blog here.</p>
 <p>For now, I'm probably more active elsewhere:</p>
@@ -23,9 +20,8 @@
   <li><a href="https://github.com/Jayphen">Github @jayphen</a></li>
 </ul>
 
-<p>p.s. <a href="https://plants.jayphen.dev/plants" target="_blank">look at my plants</a></p>
 <p>
-  p.p.s. this silly little page was built with <a href="https://kit.svelte.dev/">SvelteKit</a>. Go
+  p.s. this silly little page was built with <a href="https://kit.svelte.dev/">SvelteKit</a>. Go
   and check it out! It's the successor to <a href="https://sapper.svelte.dev/">Sapper</a>, an OSS
   project that I contributed to a little bit.
 </p>
